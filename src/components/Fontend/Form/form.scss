@@ -1,0 +1,35 @@
+.contactForm {
+  margin: 50px 0 0;
+  background-image: linear-gradient(
+    126.3deg,
+    rgba(30, 2, 83, 1) 32.2%,
+    rgba(198, 55, 160, 0.46) 109.2%
+  );
+  height: 600px;
+  .contactHeader {
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+    padding-top: 50px;
+  }
+
+  .fFormContact {
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: center;
+    grid-row-gap: 30px;
+
+    input {
+      padding: 8px;
+    }
+
+    .styles {
+      background-image: linear-gradient(
+        109.5deg,
+        rgba(76, 221, 242, 1) 11.2%,
+        rgba(92, 121, 255, 1) 91.1%
+      );
+      border: none;
+    }
+  }
+}

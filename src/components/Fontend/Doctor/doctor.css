@@ -1,0 +1,52 @@
+.doctorSec {
+  margin: 100px 0px 50px;
+}
+
+.doctorSec .doctorRow {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 30% 30%;
+      grid-template-columns: 30% 30% 30%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.doctorSec .doctorRow .doctorCard img {
+  width: 90%;
+  height: 280px;
+}
+
+.doctorSec .doctorRow .doctorCard .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .doctorSec .doctorRow {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 40%;
+        grid-template-columns: 40% 40%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .doctorSec .doctorRow {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 80%;
+        grid-template-columns: 80%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=doctor.css.map */

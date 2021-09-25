@@ -1,0 +1,23 @@
+.navbar {
+  .container-fluid {
+    .wcolor {
+      color: white;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    .container-fluid {
+      .collapse {
+        .navbar-nav {
+          .nav-item {
+            .wcolor {
+              color: rgb(61, 59, 59);
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+$sbgColor: #effcef;
+
+.serrrrr {
+  background-color: $sbgColor;
+  .services {
+    padding-top: 60px;
+
+    .serHeader {
+      margin: 50px 0;
+    }
+
+    .cardRow {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: auto auto auto;
+      justify-content: center;
+
+      .allCard {
+        text-align: center;
+
+        .cardBody h4 {
+          margin: 20px 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .serrrrr {
+    background-color: $sbgColor;
+    .services {
+      padding-top: 80px;
+
+      .serHeader {
+        margin: 50px 0;
+      }
+
+      .cardRow {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto auto;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .serrrrr {
+    background-color: $sbgColor;
+    .services {
+      margin-top: 130px;
+
+      .serHeader {
+        margin: 50px 0;
+      }
+
+      .cardRow {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto;
+        justify-content: center;
+        padding: 40px;
+      }
+    }
+  }
+}

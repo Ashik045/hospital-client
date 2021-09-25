@@ -1,0 +1,90 @@
+.mainReview .top {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 4fr 4fr;
+      grid-template-columns: 4fr 4fr;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mainReview .top .quote img {
+  float: right;
+  margin-top: -60px;
+  opacity: 0.5;
+}
+
+.mainReview .bottom {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 3fr 3fr;
+      grid-template-columns: 3fr 3fr 3fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 20px;
+}
+
+.mainReview .bottom .mainCard {
+  background-color: #effcef;
+}
+
+.mainReview .bottom .mainCard .inner {
+  padding: 20px;
+}
+
+.mainReview .bottom .mainCard .inner .cBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 30px;
+}
+
+.mainReview .bottom .mainCard .inner .cBottom .cbImg img {
+  height: 60px;
+  width: 60px;
+}
+
+@media screen and (max-width: 767px) {
+  .mainReview .bottom {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 5fr 5fr;
+        grid-template-columns: 5fr 5fr;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .mainReview {
+    margin-top: 260px;
+  }
+  .mainReview .top {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 9fr;
+        grid-template-columns: 9fr;
+    margin-bottom: 50px;
+  }
+  .mainReview .top .text {
+    z-index: 50;
+    position: relative;
+  }
+  .mainReview .top .quote img {
+    opacity: 0.2;
+    z-index: -50;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 70px;
+  }
+  .mainReview .bottom {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 80%;
+        grid-template-columns: 80%;
+  }
+}
+/*# sourceMappingURL=review.css.map */

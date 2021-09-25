@@ -1,0 +1,25 @@
+.card-img img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.carder :hover {
+  background-color: rgb(56, 236, 236);
+  color: white;
+}
+
+.carder:hover img {
+  display: none;
+}
+
+.hoverimg {
+  display: none;
+  font-size: 200px;
+}
+
+.hoverimg:hover {
+  display: block;
+  position: absolute;
+  z-index: 100;
+}

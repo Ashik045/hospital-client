@@ -1,0 +1,39 @@
+$boxColor: #3a4256;
+
+.headerMain {
+  margin-top: 100px;
+  .hakaw {
+    display: grid;
+    grid-template-columns: 35% 55%;
+    justify-content: space-between;
+  }
+
+  .htext {
+    h1 {
+      text-transform: capitalize;
+    }
+
+    .appbtn {
+      background-color: $boxColor;
+      text-transform: uppercase;
+      color: white;
+      margin: 20px 0;
+    }
+  }
+
+  .himg img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .headerMain {
+    margin-top: 50px;
+    .hakaw {
+      display: grid;
+      grid-template-columns: 90%;
+      justify-content: center;
+    }
+  }
+}

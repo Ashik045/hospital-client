@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@700&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;700&family=Roboto:wght@300&display=swap");
+.blogSec {
+  margin: 20px;
+}
+
+.blogSec .bHeader {
+  margin: 60px 0;
+}
+
+.blogSec .cardRow {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 27% 27% 27%;
+      grid-template-columns: 27% 27% 27%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 30px;
+}
+
+.blogSec .cardRow .blogCard {
+  padding: 10px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.blogSec .cardRow .blogCard .bcHeader {
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blogSec .cardRow .blogCard .btitle {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: "Koh Santepheap", cursive;
+}
+
+.blogSec .cardRow .blogCard .description {
+  font-family: "Roboto", sans-serif;
+}
+
+.blogSec .cardRow .blogCard:hover {
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, #61baff 0%, #a6effd 90.1%) !important;
+  background-size: cover;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .blogSec .cardRow {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40% 40%;
+        grid-template-columns: 40% 40%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .blogSec .cardRow {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 80%;
+        grid-template-columns: 80%;
+  }
+}
+/*# sourceMappingURL=blog.css.map */

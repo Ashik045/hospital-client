@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@700&family=Roboto:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;700&family=Roboto:wght@300&display=swap");
+
+.blogSec {
+  margin: 20px;
+  .bHeader {
+    margin: 60px 0;
+  }
+
+  .cardRow {
+    display: grid;
+    grid-template-columns: 27% 27% 27%;
+    justify-content: center;
+    grid-gap: 30px;
+
+    .blogCard {
+      padding: 10px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+      .bcHeader {
+        margin: 30px 0;
+        display: flex;
+      }
+
+      .btitle {
+        text-transform: capitalize;
+        font-weight: bold;
+        font-family: "Koh Santepheap", cursive;
+      }
+      .description {
+        font-family: "Roboto", sans-serif;
+      }
+    }
+
+    .blogCard:hover {
+      background-image: radial-gradient(
+        circle farthest-corner at 10% 20%,
+        rgba(97, 186, 255, 1) 0%,
+        rgba(166, 239, 253, 1) 90.1%
+      ) !important;
+
+      background-size: cover;
+      color: white;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .blogSec {
+    .cardRow {
+      display: grid;
+      grid-template-columns: 40% 40%;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .blogSec {
+    .cardRow {
+      display: grid;
+      grid-template-columns: 80%;
+    }
+  }
+}

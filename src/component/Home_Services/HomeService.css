@@ -1,0 +1,12 @@
+.subHeader {
+  margin-left: -35px;
+}
+
+.serviceIcon {
+  font-size: 100px;
+  color: rgb(45, 226, 226);
+}
+
+.serviceCard {
+  overflow: hidden;
+}

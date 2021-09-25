@@ -1,0 +1,18 @@
+.mainCard {
+  margin-top: -60px;
+}
+
+.detailcard {
+  height: 120px;
+  width: 270px;
+
+  border-radius: 5px;
+}
+
+.detailcard .title {
+  font-size: 30px;
+}
+
+.fontIcon {
+  font-size: 40px;
+}

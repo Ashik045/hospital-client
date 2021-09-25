@@ -1,0 +1,45 @@
+.headerMain {
+  margin-top: 100px;
+}
+
+.headerMain .hakaw {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 35% 55%;
+      grid-template-columns: 35% 55%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.headerMain .htext h1 {
+  text-transform: capitalize;
+}
+
+.headerMain .htext .appbtn {
+  background-color: #3a4256;
+  text-transform: uppercase;
+  color: white;
+  margin: 20px 0;
+}
+
+.headerMain .himg img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 576px) {
+  .headerMain {
+    margin-top: 50px;
+  }
+  .headerMain .hakaw {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 90%;
+        grid-template-columns: 90%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=HeaderMain.css.map */

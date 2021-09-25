@@ -1,0 +1,76 @@
+.serrrrr {
+  background-color: #effcef;
+}
+
+.serrrrr .services {
+  padding-top: 60px;
+}
+
+.serrrrr .services .serHeader {
+  margin: 50px 0;
+}
+
+.serrrrr .services .cardRow {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.serrrrr .services .cardRow .allCard {
+  text-align: center;
+}
+
+.serrrrr .services .cardRow .allCard .cardBody h4 {
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .serrrrr {
+    background-color: #effcef;
+  }
+  .serrrrr .services {
+    padding-top: 80px;
+  }
+  .serrrrr .services .serHeader {
+    margin: 50px 0;
+  }
+  .serrrrr .services .cardRow {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 20px;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .serrrrr {
+    background-color: #effcef;
+  }
+  .serrrrr .services {
+    margin-top: 130px;
+  }
+  .serrrrr .services .serHeader {
+    margin: 50px 0;
+  }
+  .serrrrr .services .cardRow {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 20px;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 40px;
+  }
+}
+/*# sourceMappingURL=services.css.map */

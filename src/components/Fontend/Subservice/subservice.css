@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&display=swap");
+.subService .subSerRow {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 4fr 6fr;
+      grid-template-columns: 4fr 6fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.subService .subSerRow .half1 img {
+  width: 90%;
+  height: auto;
+}
+
+.subService .subSerRow .halg2 h2 {
+  text-transform: capitalize;
+  font-size: 40px;
+  margin-top: 25px;
+}
+
+.subService .subSerRow .halg2 p {
+  margin: 50px 0;
+  font-family: "Gemunu Libre", sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+  .subService .subSerRow {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 10fr;
+        grid-template-columns: 10fr;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .subService .subSerRow .half1 {
+    margin-left: 25px;
+  }
+  .subService .subSerRow .halg2 {
+    padding: 30px;
+  }
+  .subService .subSerRow .halg2 h2 {
+    font-size: 30px;
+    margin-top: 15px;
+  }
+  .subService .subSerRow .halg2 p {
+    margin: 25px 0;
+  }
+  .subService .subSerRow .halg2 .btncolor {
+    background-color: red;
+  }
+}
+/*# sourceMappingURL=subservice.css.map */

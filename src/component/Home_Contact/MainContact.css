@@ -1,0 +1,18 @@
+.backgroundpic {
+  background-image: url(../image//backgroundtwo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-color: rgb(136, 133, 133) !important;
+}
+
+.headerrrr {
+  position: absolute;
+  margin-top: -460px;
+  margin-left: 40%;
+}
+.formco {
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 10%;
+}

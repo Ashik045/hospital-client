@@ -1,0 +1,77 @@
+.mainReview {
+  .top {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    justify-content: space-between;
+
+    .quote img {
+      float: right;
+      margin-top: -60px;
+      opacity: 0.5;
+    }
+  }
+
+  .bottom {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    justify-content: center;
+    grid-gap: 20px;
+
+    .mainCard {
+      background-color: #effcef;
+
+      .inner {
+        padding: 20px;
+
+        .cBottom {
+          display: flex;
+          justify-content: space-around;
+          padding: 30px;
+
+          .cbImg img {
+            height: 60px;
+            width: 60px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mainReview {
+    .bottom {
+      display: grid;
+      grid-template-columns: 5fr 5fr;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .mainReview {
+    margin-top: 260px;
+    .top {
+      display: grid;
+      grid-template-columns: 9fr;
+      margin-bottom: 50px;
+      .text {
+        z-index: 50;
+        position: relative;
+      }
+      .quote img {
+        opacity: 0.2;
+        z-index: -50;
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        left: 70px;
+      }
+    }
+
+    .bottom {
+      display: grid;
+      grid-template-columns: 80%;
+    }
+  }
+}

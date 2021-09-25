@@ -1,0 +1,26 @@
+.backgroundpic {
+  background-image: url(../image/bgpic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  opacity: 0.3;
+  position: relative;
+}
+.bgrow {
+  position: absolute;
+  margin-top: -500px;
+}
+
+.bgremove {
+  position: absolute;
+  height: 500px;
+  width: 400px;
+  opacity: 0.9;
+}
+
+.bgtext {
+  opacity: 0.9;
+  margin-left: 150px;
+  margin-top: 150px;
+}

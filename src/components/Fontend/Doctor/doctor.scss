@@ -1,0 +1,40 @@
+.doctorSec {
+  margin: 100px 0px 50px;
+  .doctorRow {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+
+    .doctorCard {
+      img {
+        width: 90%;
+        height: 280px;
+      }
+
+      .contact {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .doctorSec {
+    .doctorRow {
+      display: grid;
+      grid-template-columns: 40% 40%;
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .doctorSec {
+    .doctorRow {
+      display: grid;
+      grid-template-columns: 80%;
+      justify-content: center;
+    }
+  }
+}
